@@ -39,7 +39,7 @@ showTask();
 // Add event listener for Enter key
 inputBox.addEventListener("keydown", function (e) {
     if (e.key === "Enter") {
-        if (inputBox.value === '') { // Check if the input value is empty
+        if (inputBox.value ==="") { // Check if the input value is empty
             alert("You must write something!");
         } else {
             addTask();
